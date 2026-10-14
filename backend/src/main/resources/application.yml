@@ -4,7 +4,7 @@ spring:
   datasource:
     url: ${DB_URL:jdbc:mysql://localhost:3306/campus_hub?createDatabaseIfNotExist=true}
     username: ${DB_USERNAME:root}
-    password: ${DB_PASSWORD:14102005}
+    password: ${DB_PASSWORD:123456$}
   jpa:
     hibernate:
       ddl-auto: validate
